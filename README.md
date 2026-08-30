@@ -1,6 +1,6 @@
-# Tumour-state plasticity and CTNNB1 dependency in gastrointestinal cancer models
+# Mesenchymal tumour state predicts selective escape from CTNNB1 dependency in gastrointestinal cancer models
 
-Reproducible Python code for the manuscript analysis linking an EMT/ECM-associated transcriptional state to reduced CTNNB1 dependency across independent gastrointestinal patient-derived cancer model collections.
+Reproducible Python code supporting analyses of the association between mesenchymal tumour state and reduced CTNNB1 dependency across independent gastrointestinal patient-derived cancer model collections.
 
 ## Analysis overview
 
@@ -64,12 +64,7 @@ python analysis/03_systematic_state_dependency_scan.py
 
 ## Repository status
 
-This repository is structured for manuscript reproducibility. Before public release, two items should be frozen against the final manuscript version:
-
-1. the exact 20 transcriptional programmes in `config/systematic_states.txt`;
-2. the exact cohort-specific genomic-event coding in the multivariable design tables described in `docs/MULTIVARIABLE_DESIGN.md`.
-
-These two explicit freeze points prevent exploratory choices from being silently changed after manuscript finalization.
+This repository corresponds to the manuscript-submission analysis version. The 20 transcriptional programmes used in the systematic screen are fixed in `config/systematic_states.txt`, and the cohort-specific genomic-event coding used in the multivariable analyses is documented in `docs/MULTIVARIABLE_DESIGN.md`. These files define the analysis configuration used to reproduce the reported results.
 
 ## Citation
 
