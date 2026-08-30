@@ -14,7 +14,7 @@ The repository separates **statistical analysis** from **figure placement**. The
 6. Analyse matched HCMI tumour/model snRNA-seq for relative EMT-I-state preservation and ex vivo attenuation.
 7. Fit cohort-specific HC3 multivariable models using frozen design tables.
 8. Reproduce the CTNNB1-expression- and lineage-adjusted residual correlations shown in Fig. 3c.
-8. Generate figures from source-data tables.
+9. Generate figures from source-data tables.
 
 ## Installation
 
@@ -47,7 +47,7 @@ HCMI snRNA-seq: GEO GSE297148
 bash run_all.sh
 ```
 
-The systematic 326,360-test scan is kept separate because it is comparatively expensive and should only be run after freezing the exact 20-programme list:
+The systematic 326,360-test scan is kept separate because it is comparatively computationally intensive and uses the fixed 20-programme list defined in `config/systematic_states.txt`:
 
 ```bash
 python analysis/03_systematic_state_dependency_scan.py
