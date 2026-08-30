@@ -1,0 +1,42 @@
+random_seed: 20260829
+broad_lineages:
+  - Bowel
+  - Esophagus/Stomach
+  - Pancreas
+  - Ampulla of Vater
+  - Biliary Tract
+sanger_tissues:
+  - COLO
+  - OESO
+  - PANC
+primary_state: EMT-I
+primary_dependency: CTNNB1
+min_genes_per_program: 5
+systematic_states: 20
+expected_shared_dependencies: 16318
+meta_multiple_tests: 326360
+stroma_heavy_genes:
+  - COL1A2
+  - SPARC
+  - COL1A1
+  - COL3A1
+  - TAGLN
+  - FN1
+  - MGP
+  - BGN
+  - COL6A2
+  - COL4A2
+  - COL6A1
+  - MMP2
+  - DCN
+  - COL4A1
+wnt_genes:
+  - CTNNB1
+  - APC
+  - TCF7L2
+  - LGR4
+  - MESD
+  - PORCN
+  - WLS
+  - FZD5
+  - LRP6

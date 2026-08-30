@@ -1,0 +1,5 @@
+Analysis,N_pairs_or_patients,Lineage_adjusted_Pearson_r,Pearson_P,Lineage_adjusted_Spearman_rho,Spearman_P,Exact_stratified_permutation_P,Mean_Model_minus_Tumour_EMTI,Paired_Wilcoxon_P
+Whole-sample pseudobulk,9,0.7983,0.0099,0.7333,0.02455,0.0556,-2.1563,0.003906
+Epithelial-enriched pseudobulk,9,0.7647,0.01638,0.6333,0.06709,0.1007,-1.7638,0.007812
+"Whole-sample, patient-collapsed",7,0.8217,0.02336,0.75,0.05218,,,
+"Epithelial-enriched, patient-collapsed",7,0.8023,0.02991,0.6071,0.14823,,,

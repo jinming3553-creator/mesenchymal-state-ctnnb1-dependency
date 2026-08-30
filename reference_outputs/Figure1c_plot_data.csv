@@ -1,0 +1,7 @@
+Cohort,N_matched_pairs,Celligner_concordance,OncoMatch_concordance,TMP_exact_match,MOMA_exact_match
+COAD,54,0.963,0.815,0.667,0.611
+READ,19,1.0,0.684,0.421,0.632
+PAAD,49,0.878,0.796,0.735,0.367
+ESCA,16,0.688,0.75,0.25,0.625
+STAD,14,0.786,0.857,0.143,0.929
+CHOL,7,0.143,0.857,1.0,1.0
